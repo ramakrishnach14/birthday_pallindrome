@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+}
+
+:root{
+	--primary-color: #66263F;
+}
+
+body{
+	margin: 0;
+}
+
+.content{
+	max-width: 600px;
+	width: 100%;
+	min-height: 400px;
+	margin: 0px auto;
+	text-align: center;
+	border: 1px solid red;
+}
+
+.content-data > h1{
+	margin: 10px 0;
+	font-size: 2rem;
+	font-weight: bolder;
+	/*color: blue;*/
+}
+
+.content-data > p{
+	font-size: 1rem;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.content-data > #birthdate{
+	border: 1px solid var(--primary-color);
+	margin: 10px auto;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	display: block;
+}
+
+.content-data > #chkBtn{
+	background-color: var(--primary-color);
+	color: white;
+	margin: 10px auto;
+	width: 80px;
+	height: 50px;
+	border-radius: 10px;
+	display: block;
+}
+
+.content-gif{
+	max-width: 200px;
+	max-height: 200px;
+	margin: 20px auto;
+	/*border: 1px solid red;*/
+	padding: 20px;
+	display: none;
+}
+
+.content-gif > img {
+
+}
+
+.content-output{
+	max-width: 100%;
+	min-height: 100px;
+	/*border: 1px solid red;*/
+	margin: 10px;
+	display: none;
+	padding: 10px;
+	font-size: 1.5rem;
+}
+
+.footer{
+	max-width: 500px;
+	width: 100%;
+	position: absolute;
+	/*bottom: 0;
+	left: 500px;*/
+	left: 500px;
+	bottom: 0px;
+	/*right: auto;*/
+	height: 40px;
+	/*border: 1px solid yellow;*/
+	text-align: center;
+}
+
+.footer > span{
+	color: black;
+	max-width: 100px;
+	width: 100%;
+	font-size: 1.2rem;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*border: 1px solid orange;*/
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
